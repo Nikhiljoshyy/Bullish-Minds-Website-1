@@ -37,17 +37,41 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
 
-a.filled-buyButton {
+.margin2{
+	margin-bottom: 20px;
+}
+
+a.filled-buyButtonIndia {
 	background-color: #FF6B6B;
 	color: #fff;
-	font-size: 16px;
+	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 700;
-	padding: 12px 45%;
+	padding: 12px 38%;
 	border-radius: 30px;
 	display: inline-block;
 	transition: all 1s;
 }
+
+a.filled-buyButtonIndia:hover {
+	background-color: #fff;
+	color: #FF6B6B;
+}
+
+a.filled-buyButton {
+	background-color: #FF6B6B;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 12px 43%;
+	border-radius: 30px;
+	display: inline-block;
+	transition: all 1s;
+
+}
+
+
 
 a.filled-buyButton:hover {
 	background-color: #fff;
